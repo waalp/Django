@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if person_list %}
+        {% for person in person_list %}
+            <li>{{ person.headimg }}</li>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
